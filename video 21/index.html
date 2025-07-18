@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       .box{
+        box-sizing: border-box;
+        border: 2px solid black;
+        /* width: 1024px; */
+        width: 60vw;
+        margin: auto;
+        background-color:aqua ;
+       }
+       .container{
+        box-sizing: border-box;
+        border: 2px solid black;
+        /* width: 1024px; */
+        width: 60vw;
+        /* height: 100vh; */
+        min-height: 80vh;
+        margin: 23px auto;
+        font-size: 16px;
+        background-color:aqua ;
+       }
+       .container > div{
+           font-size: 2rem;
+           border: 2px solid blue;
+           width: 50%;
+       }
+       
+        .container > div > div{
+             border: 2px solid blue;
+           width: 50%;
+        }
+    html{
+        font-size: 12px;
+    }
+    .my{
+        border: 10px solid yellow;
+        box-sizing: border-box;
+        /* background-color: rgb(205, 190, 135); */
+        margin: 23px auto;
+        color: rgb(153, 0, 255);
+        font-size: 22px;
+        /* width: 100vmax; */
+        width: 80vw;
+    }
+    /* vmin vmax bujbo */
+    </style>
+</head>
+<body>
+    <div class="box">
+        this is box
+    </div>
+<div class="container">
+<div>
+  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus debitis ipsam dolor corrupti magni quos iure aliquid! Explicabo, magni. Distinctio, fugit molestiae nobis, sint impedit ab, iure est a quae recusandae pariatur laboriosam dicta maxime nostrum fugiat repellendus quasi inventore reiciendis. Animi, tempore dolor? Nesciunt voluptates, officia, maiores tempora quam iure amet eligendi laudantium porro mollitia, .
+  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas saepe minus optio?
+  </div>
+</div>
+</div>
+<div class="my">
+    Lorem 
+</div>
+</body>
+</html>
